@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "name": "react-native-pull",
+        "raw": "react-native-pull",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/xiaoxuez/phantom-react-native"
+    ]
+  ],
+  "_cnpm_publish_time": 1472791093915,
+  "_from": "react-native-pull@latest",
+  "_id": "react-native-pull@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-pull",
+  "_nodeVersion": "6.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-pull-1.1.0.tgz_1472791091757_0.36731376498937607"
+  },
+  "_npmUser": {
+    "email": "greatarchitect@163.com",
+    "name": "architect.bian"
+  },
+  "_npmVersion": "3.10.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-pull",
+    "raw": "react-native-pull",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-pull/download/react-native-pull-1.1.0.tgz",
+  "_shasum": "4ec7dbf0aa1db32b8a4c83c2fb6e6692775e3fde",
+  "_shrinkwrap": null,
+  "_spec": "react-native-pull",
+  "_where": "/Users/xiaoxuez/phantom-react-native",
+  "author": {
+    "name": "architect.bian"
+  },
+  "bugs": {
+    "url": "https://github.com/greatbsky/react-native-pull/issues"
+  },
+  "dependencies": {},
+  "description": "PullView & PullList component in React Native for both Android and iOS, pull to refresh",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "noattachment": false,
+    "shasum": "4ec7dbf0aa1db32b8a4c83c2fb6e6692775e3fde",
+    "size": 5419,
+    "tarball": "http://registry.npm.taobao.org/react-native-pull/download/react-native-pull-1.1.0.tgz"
+  },
+  "gitHead": "0f1cd7857bb5f5c76d6da9009d2e3be489979a8e",
+  "homepage": "https://github.com/greatbsky/react-native-pull#readme",
+  "keywords": [
+    "react-native-pull",
+    "PullView",
+    "PullList",
+    "pull",
+    "to",
+    "refresh",
+    "React Native",
+    "ScrollView",
+    "ListView"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "greatarchitect@163.com",
+      "name": "architect.bian"
+    },
+    {
+      "email": "masterliuwei@gmail.com",
+      "name": "derick_liu"
+    }
+  ],
+  "name": "react-native-pull",
+  "optionalDependencies": {},
+  "publish_time": 1472791093915,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatbsky/react-native-pull.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "name": "react-native-phantom-network",
+        "raw": "react-native-phantom-network",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/xiaoxuez/phantom-react-native"
+    ]
+  ],
+  "_cnpm_publish_time": 1470200601457,
+  "_from": "react-native-phantom-network@latest",
+  "_id": "react-native-phantom-network@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-phantom-network",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-phantom-network-1.0.0.tgz_1470200599237_0.37178140925243497"
+  },
+  "_npmUser": {
+    "email": "1125424070@qq.com",
+    "name": "blueorange"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-phantom-network",
+    "raw": "react-native-phantom-network",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-phantom-network/download/react-native-phantom-network-1.0.0.tgz",
+  "_shasum": "0dc54936204ce31762e9112b969932ffbfb37a34",
+  "_shrinkwrap": null,
+  "_spec": "react-native-phantom-network",
+  "_where": "/Users/xiaoxuez/phantom-react-native",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/JiLaqi/react-native-phantom-network/issues"
+  },
+  "dependencies": {},
+  "description": "Phantom React-Native Network use fetch, use request-Header, URi, method, body, result with callback.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "noattachment": false,
+    "shasum": "0dc54936204ce31762e9112b969932ffbfb37a34",
+    "size": 1391,
+    "tarball": "http://registry.npm.taobao.org/react-native-phantom-network/download/react-native-phantom-network-1.0.0.tgz"
+  },
+  "homepage": "https://github.com/JiLaqi/react-native-phantom-network#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "1125424070@qq.com",
+      "name": "blueorange"
+    }
+  ],
+  "name": "react-native-phantom-network",
+  "optionalDependencies": {},
+  "publish_time": 1470200601457,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiLaqi/react-native-phantom-network.git"
+  },
+  "scripts": {
+    "test": "make"
+  },
+  "version": "1.0.0"
+}

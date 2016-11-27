@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      {
+        "name": "react-native-phantom-base64",
+        "raw": "react-native-phantom-base64@^1.0.1",
+        "rawSpec": "^1.0.1",
+        "scope": null,
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "/Users/xiaoxuez/phantom-react-native"
+    ]
+  ],
+  "_from": "react-native-phantom-base64@>=1.0.1 <2.0.0",
+  "_id": "react-native-phantom-base64@1.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-phantom-base64",
+  "_nodeVersion": "6.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-phantom-base64-1.0.2.tgz_1474867777971_0.8963397112675011"
+  },
+  "_npmUser": {
+    "email": "xx_xiaoxuez@163.com",
+    "name": "xxuez"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-phantom-base64",
+    "raw": "react-native-phantom-base64@^1.0.1",
+    "rawSpec": "^1.0.1",
+    "scope": null,
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-phantom-base64/-/react-native-phantom-base64-1.0.2.tgz",
+  "_shasum": "f470f185ef2ee72aace2b6f5bc35f7e7c7585129",
+  "_shrinkwrap": null,
+  "_spec": "react-native-phantom-base64@^1.0.1",
+  "_where": "/Users/xiaoxuez/phantom-react-native",
+  "author": "",
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "f470f185ef2ee72aace2b6f5bc35f7e7c7585129",
+    "tarball": "https://registry.npmjs.org/react-native-phantom-base64/-/react-native-phantom-base64-1.0.2.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "xx_xiaoxuez@163.com",
+      "name": "xxuez"
+    }
+  ],
+  "name": "react-native-phantom-base64",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
