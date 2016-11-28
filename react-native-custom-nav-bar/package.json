@@ -1,0 +1,11 @@
+{
+  "name": "react-native-custom-nav-bar",
+  "version": "1.0.1",
+  "description": "",
+  "main": "NavigatorBar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaoxuez",
+  "license": "ISC"
+}
