@@ -1,0 +1,4 @@
+pic2base64 -pictures=./images -template=template.txt -output=image.js
+黄色部分为输入的   1. 图片文件夹   2 模板文件  3 目标文件生成文件
+
+./pic2base64 -pictures=/Users/xiaoxuez/PhantomSmart-RN/ReactNative/CustomUI/CheckBox/Image -template=./template.txt -output /Users/xiaoxuez/PhantomSmart-RN/ReactNative/CustomUI/CheckBox/Image/arrayCode.js
