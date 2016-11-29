@@ -1,6 +1,6 @@
 'use strict';
 export const BASEIMAGE = {
 {{range $key, $value := .}}
-  '{{ $key }}': 'data:image/png; base64,{{ $value }}',
+  '{{ $key }}': 'data:image/png;base64,{{ $value }}',
 {{end}}
 };
