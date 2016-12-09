@@ -11,7 +11,7 @@ add it into navigationBar when init navigator, just like :
 
  custom style of bar by this:
 
- 		`NavigationBar.render({backgroundColor: 'red'})`
+ 		`navigationBar=NavigationBar.render({backgroundColor: 'red'})`
 
 
  then, when pushing page, can define title by:
@@ -33,3 +33,23 @@ add it into navigationBar when init navigator, just like :
  there are two kinds of buttons , 'BACK' and 'CUSTOM'. when use 'BACK', the handle is auto defined as poping. when use 'CUSTOM', express can be defined as string or function, when is function, should return view,like:
 
     	`express: () => <View />,`
+
+change the buttons in itself, just like this:
+
+			` const {navigator} = this.props;
+		    if (navigator) {
+		      navigator.setState({
+		        rightButton: {
+		          action: 'CUSTOM',
+		          express: '自定义',
+		        },
+		      })
+		    }`
+
+also can change tite.
+			` const {navigator} = this.props;
+				if (navigator) {
+					navigator.setState({
+						title: 'haha',
+					})
+				}`

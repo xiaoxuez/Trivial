@@ -7,7 +7,7 @@
    
 ### react-native-custom-nav-bar
 -
-navigator头部，可自定义左右按钮，缺点，尚未完成可控头部，就是在页面内无法修改标题栏内容，回头有时间补上。
+navigator头部，可自定义左右按钮.在页面push时候定义或者页面自身修改左右按钮都可以。
 
 ### react-native-network
 -

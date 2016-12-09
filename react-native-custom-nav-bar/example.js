@@ -23,7 +23,7 @@ class App extends Component {
         }}
         renderScene={(route, navigator) => {
           let Component  = route.component;
-          _navigator = navigator 
+          _navigator = navigator
           return <Component {...route.params} navigator={navigator} />
         }}
         navigationBar={NavigationBar.render()}

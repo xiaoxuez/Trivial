@@ -38,7 +38,10 @@ export default {
 
   RightButton (route, navigator, index, navState) {
     if (navState.rightButton) {
-      return navState.rightButton
+      if (navState.rightButton.custom) {
+        return navState.rightButton
+      }
+      return this.CreateButton(navState.rightButton, navigator)
     } else if (route.rightButton) {
       return this.CreateButton(route.rightButton, navigator)
     }
