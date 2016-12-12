@@ -40,6 +40,7 @@ change the buttons in itself, just like this:
 		    if (navigator) {
 		      navigator.setState({
 		        rightButton: {
+							showing: true
 		          action: 'CUSTOM',
 		          express: '自定义',
 		        },
@@ -53,3 +54,12 @@ also can change tite.
 						title: 'haha',
 					})
 				}`
+
+
+#### warning:
+once I using navigator.setState, all the pages will share it, which means I use navigator.setState to a page, but other pages will also use the same state. i should use something to remove it.
+	`navigator.setState({
+		rightButton: {
+			showing: false
+		},
+	})`  

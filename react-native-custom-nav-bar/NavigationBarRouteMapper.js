@@ -37,7 +37,7 @@ export default {
   },
 
   RightButton (route, navigator, index, navState) {
-    if (navState.rightButton) {
+    if (navState.rightButton && navState.rightButton.showing === true) {
       if (navState.rightButton.custom) {
         return navState.rightButton
       }

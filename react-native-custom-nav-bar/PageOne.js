@@ -12,13 +12,22 @@ export default class extends Component {
     if (navigator) {
       navigator.setState({
         rightButton: {
+          showing: true,
           action: 'CUSTOM',
           express: '自定义',
         },
       })
     }
   }
-  
+
+  componentWillUnmount() {
+    this.props.navigator && this.props.navigator.setState({
+      rightButton: {
+        showing: false,
+      },
+    })
+  }
+
   render() {
     return(
       <View>
